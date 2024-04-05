@@ -1,0 +1,138 @@
+/*icone*/
+i{
+    font-size: 1em;
+}
+input[type="checkbox"]{
+    display: none;
+}
+nav label{
+    display: flex;
+    flex-direction: row;
+}
+nav i{
+    text-align: center;
+    align-self: center;
+    cursor: pointer;
+}
+#lua {
+    color:rgb(30, 87, 37);
+}
+.dark #lua{
+    display:none;
+}
+#sol{
+    display: none;
+}
+.dark #sol{
+    display:initial;
+    color: rgb(216,224,185);
+}
+/*corpo e barra de navegação*/
+.dark, .dark nav{
+    background-color:rgb(41,113,50);
+}
+.dark nav div {
+    color: rgb(216,224,185);
+ }
+ 
+.dark nav a { 
+     color:rgb(216,224,185);   
+ }
+/*inicio*/
+.dark #texto-inicio {
+    background-color: rgb(30, 87, 37);
+    color:rgb(216,224,185);
+}
+/*Objetivos*/
+.dark #objetivos{
+    background-color:rgb(67, 148, 77);
+}
+.dark #objetivos h2{
+    color:rgb(216,224,185);
+}
+.dark #objetivos p {
+    color:rgb(216,224,185) ;
+}
+/*Nossa Equipe*/
+.dark #nos h1{
+    color:rgb(216,224,185);   
+}
+.dark #nos h2{
+    color:rgb(216,224,185);
+}
+.dark #nos small{
+    color:rgb(216,224,185) ;   
+}
+.dark #nos article {
+    background-color:rgb(30, 87, 37);
+}
+.dark #nos article:hover {
+    background-color:rgb(16, 68, 23);
+}
+.dark #nos article:hover small{
+    color:rgb(216,224,185);
+}
+/*carrossel de depoimentos*/
+.dark #carrossel-depoimentos h1 {
+    color:rgb(216,224,185);
+}
+.dark #depoimentos h2{
+    color:rgb(216,224,185);
+}
+.dark #depoimentos small{
+    color:rgb(216,224,185);
+}
+.dark #depoimentos p{
+    color:rgb(216,224,185);
+}
+.dark #depoimentos article {
+    background-color:rgb(30, 87, 37);
+}
+/*formulário de contato*/
+.dark #contato h1{
+    color:rgb(216,224,185);  
+}
+.dark #contato p{
+    color:rgb(216,224,185); 
+}
+.dark label{
+    color:rgb(216,224,185);
+}
+
+.dark input{
+    border-color:rgb(25, 76, 31);
+    background-color:rgb(216,224,185);
+}
+.dark #estado{
+    background-color:rgb(216,224,185);
+    border-color:rgb(25, 76, 31);
+}
+.dark .formadecontato{
+    accent-color: rgb(216,224,185);
+}
+
+.dark input[type="submit"]{
+    color:rgb(30, 87, 37);
+    width:20%;
+    font-size: 1.5em;
+    font-weight: bold;
+   margin-left:20%;
+   cursor: pointer;
+}
+.dark input[type="submit"]:hover {
+    
+    background-color:rgb(30, 87, 37);
+    color: rgba(216,224,185,255);
+
+}
+.dark #contato img{
+    width:30%;
+    height:20%;
+}
+/*rodape*/
+.dark footer{
+    background-color:rgb(25, 76, 31);
+}
+
+
+ 

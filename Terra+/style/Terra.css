@@ -1,0 +1,352 @@
+/*cores e configurações gerais*/
+.verdeescurodalogo {
+    color:rgba(41,113,50,255);
+} /*se pa quero na header e nav*/
+.verdeclarodadalogo {
+    color:rgba(216,224,185,255);
+} /* quero colocar essa de background*/
+.coresamais{
+    color:#44BD54;
+    color:#4F7028;
+    color:#84BD44;
+
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(216,224,185,255);
+}
+.marca{
+    font-family: "viga", sans-serif;
+}
+/*header e barra de navegação*/
+nav div {
+   display: flex;
+   justify-content:left;
+   color: rgba(41,113,50,255);
+}
+    
+nav h1 {
+    font-family: "Viga", sans-serif;
+    align-self: center;
+    font-size: 3rem;
+    margin-left: 1rem;
+}
+#logo-header{
+    align-self: center;
+    width: 70px;
+    height: 70px;   
+}
+nav { 
+    height: 4em;
+    align-self: center;
+    position: fixed;
+    top:0px;
+    width: 99%;
+    background-color:rgba(216,224,185,255);
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.5rem;
+    font-family:Arial, Helvetica, sans-serif;
+    z-index: 1;
+
+}
+nav a { 
+    align-self: center;
+    color:rgb(41,113,50);
+    font-weight: bold;
+    padding: 0.2em;
+    text-decoration: none;
+    cursor: pointer;
+}
+/*primeira sessão*/
+#inicio{
+    margin: auto;
+    margin-top: 7em;
+    height: 400px;
+    width:95%;
+    background-image: url(plantacao-inicio.webp);
+    background-size: cover;
+    border-radius: 2rem;
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    z-index: -1;
+}
+#texto-inicio {
+    background-color: rgba(224, 235, 182, 0.8);
+    color:rgb(30, 87, 37);
+    border-radius: 1rem;
+    font-weight: bold;
+    margin-left: 2rem;
+    font-size: 1.5rem;
+    width:60%;
+    height: fit-content;
+    padding: 1rem;
+}
+/*Objetivos*/
+#section-objetivos {
+    width: 95%;
+    margin: auto;
+    padding-top: 4rem;
+}
+#objetivos{
+    height: fit-content;
+    margin-top: 4rem;
+    background-color:#99ba73;
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    
+}
+#objetivos h2{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    font-family: "viga", sans-serif;
+    font-size: 3em;
+    color:rgb(30, 87, 37);
+    padding: 1em;
+
+}
+
+#objetivos p{
+    text-align: justify;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: rgb(14, 83, 22);
+    padding: 2em;
+
+}
+/*Nossa Equipe*/
+#nos{
+    width: 95%;
+    padding-top: 5rem;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+#nos h1{
+    padding-left: 1em;
+    font-family: "viga", sans-serif;
+    font-size: 3em;
+    color:rgba(41,113,50,255);   
+}
+
+#perfil-equipe {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+#nos h2{
+    padding-left:1em;
+    color:rgb(30, 87, 37);
+}
+#nos small{
+    font-size: 1.5em;
+    color: rgb(35, 100, 42);
+    padding-left: 1em;
+    display: none;
+}
+#nos img{
+    width: 130px;
+}
+#nos article {
+    background-color:rgb(224, 237, 173);
+    border-radius: 1rem;
+    width:330px;
+    align-items: center;
+    padding:2em;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1em;
+    transition-duration: 0.3s;
+}
+#nos article:hover {
+    width: 450px;
+    background-color: rgb(187, 201, 131);
+
+
+}
+#nos article:hover small{
+    display: initial;
+    font-size: 1.5em;
+    color: rgb(35, 100, 42);
+    padding-left: 1em;
+    
+}
+#nos article:hover h2{
+    font-size: 2em;
+}
+/*carrossel de depoimentos*/
+#carrossel-depoimentos h1 {
+    padding-left: 1em;
+    font-family: "viga", sans-serif;
+    font-size: 3em;
+    color:rgba(41,113,50,255);
+    width:30%;
+}
+.foto-depoimento{
+    margin-left:2em;
+    margin-right: 2em;
+    width:100px;
+    height:100px;
+}
+#depoimentos h2{
+    color:rgb(30, 87, 37);
+    font-size:1.5em;
+}
+#depoimentos small{
+    color:rgb(30, 87, 37);
+    font-size: 1em;
+
+}
+#depoimentos p{
+    color:rgb(30, 87, 37);
+    font-size: 1.3em;
+
+}
+#carrossel-depoimentos{
+    padding-top: 5rem;
+    width:95%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+#depoimentos {
+    background-image: url("fundo-depoimento.webp");
+    background-size: cover;
+    padding:3em;
+    align-items: center;
+    border-radius: 2em;
+    height: fit-content;
+    overflow: hidden;
+   
+}
+#depoimentos article {
+    background-color:#bad799;
+    border-radius: 1em;
+    width: 60%;
+    margin-left: 2%;
+    margin-right: 2%;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left:1em;
+    padding-right: 2em;
+}
+#depoimentos .deps{
+    display: flex;
+    flex-direction: row;
+    width:320%;
+    animation-name: animacao;
+    animation-duration:30s;
+    animation-iteration-count: infinite;
+}
+    /*animação do carrossel*/
+    @keyframes animacao{
+        0%{margin-left: 0%;}
+        20%{margin-left: 0%;}
+        25%{margin-left:-50%}
+        45%{margin-left:-50%}
+        50%{margin-left:-110%}
+        70%{margin-left: -110%;}
+        75%{margin-left: -175%;}
+        95%{margin-left: -175%;}
+        100%{margin-left: -255%}
+        
+    }
+/*formulário de contato*/
+#contato{
+    width:95%;
+    margin-left:5%;
+    padding-top: 5em;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+}
+#contato h1{
+    padding-left: 1em;
+    font-family: "viga", sans-serif;
+    font-size: 3em;
+    color:rgb(41,113,50);  
+}
+#contato p{
+    
+    font-size: 1.5em;
+    font-weight: bold;
+    color:rgb(30, 87, 37);; 
+
+}
+label{
+    color:rgb(30, 87, 37);
+    font-size:1.5em;
+    font-weight: bold;
+}
+#name{
+    width:55%;
+}
+input{
+    font-size: 1em;
+    margin: 0.5em;
+    border-radius: 0.5rem;
+    border-color:rgb(30, 87, 37);
+    height: 2rem;
+    width:20%;
+    background-color: rgb(250, 255, 231);
+
+}
+#estado{
+    background-color: rgb(250, 255, 231);
+    font-size: 1em;
+    margin: 1.5em;
+    border-radius: 0.5rem;
+    border-color:rgb(30, 87, 37);
+    height: 2em;
+    width:20%;
+}
+.formadecontato{
+    vertical-align: middle;
+    width:1em;
+    accent-color: rgb(30, 87, 37);
+}
+#perguntacontato{
+    margin-left: 0em
+}
+.escolhacontato {
+    font-size: 1.2em;
+}
+input[type="submit"]{
+    color:rgb(30, 87, 37);
+    width:20%;
+    font-size: 1.5em;
+    font-weight: bold;
+   margin-left:20%;
+   cursor: pointer;
+}
+input[type="submit"]:hover {
+    
+    background-color:rgb(30, 87, 37);
+    color: rgba(216,224,185,255);
+
+}
+#contato img{
+    width:30%;
+    height:20%;
+}
+/*rodape*/
+footer{
+    margin-top:2em;
+    height:10vh;
+    background-color:rgb(30, 87, 37);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+footer p{
+
+    font-size:1em;
+    color:rgba(216,224,185,255);
+    
+}

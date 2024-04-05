@@ -1,0 +1,208 @@
+@media (min-width:601px) and (max-width:900px) {
+    /*barra de navegação*/
+    #logo-header {
+        width:70px;
+        height:70px;
+    }
+    nav h1{
+        margin-left: 0.5em;
+        font-size:1.5em; ;
+    }
+    nav a{
+        font-size:0.8em;
+    }
+    nav{
+        width:97vw;
+    }
+    /*seção inicial*/
+    #inicio{
+        width:95vw;
+        height: fit-content;
+        padding-bottom: 3em;
+        padding-top: 3em;
+    }
+    #texto-inicio{
+        margin:auto;
+        width:90%;
+        font-size: 1.2em;
+    }
+    /*objetivo*/
+    #section-objetivos{
+        display:flex;
+        flex-direction: column;
+        padding-top:2.5em;
+        width:95vw;
+        
+    }
+    #objetivos {
+        height: fit-content;
+        display:flex;
+        flex-direction: column;
+    }
+    #objetivos h2{
+        margin:0em;
+        font-size: 2.3em;
+        padding-bottom: 0em;
+    }
+    #objetivos p{
+        padding: 1.5em;
+        font-size: 1.2em;
+    }
+    /*equipe*/
+ #nos{   
+    width: 95vw;
+    padding-top: 2.5em;
+}
+#nos h1{
+    padding-left: 0em;
+    text-align: center;
+    font-size: 2.3em;
+}
+#nos h2{
+    font-size:1.7em;
+    padding-left:1em;
+    color:rgb(30, 87, 37);
+}
+#nos small{
+    font-size: 1.5em;
+    padding-left: 1em;
+    display: initial;
+}
+#nos img{
+    width: 100px;
+}
+#nos article {
+    background-color:rgb(224, 237, 173);
+    border-radius: 1rem;
+    width:80vw;
+    align-items: center;
+    padding:2em;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1em;
+}
+#nos article:hover {
+    width: 80vw;
+    background-color: rgb(224, 237, 173);
+
+
+}
+#nos article:hover small{
+    display: initial;
+    font-size: 1.5em;
+    color: rgb(35, 100, 42);
+    padding-left: 1em;
+}
+#nos article:hover h2{
+    font-size: 1.7em;
+}
+/*carrossel de depoimentos*/
+#carrossel-depoimentos h1 {
+    width:100vw;
+    padding-left: 0em;
+    text-align: center;
+    font-family: "viga", sans-serif;
+    font-size: 2em;
+}
+.foto-depoimento{
+    width:80px;
+    height:80px;
+}
+#depoimentos h2{
+    font-size:1.5em;
+}
+#depoimentos small{
+    font-size: 0.8em;
+
+}
+#depoimentos p{  
+    font-size: 1.2em;
+
+}
+#carrossel-depoimentos{
+    padding-top: 5rem;
+    width:95vw;
+    margin:auto;
+}
+#depoimentos {
+    padding:1.5em;
+}
+#depoimentos article {
+    background-color:#bad799;
+    border-radius: 1em;
+    width: 80%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding:1em;
+}
+#depoimentos .deps{
+    width:410%;
+    animation-duration:25s;
+}
+    /*animação do carrossel*/
+    @keyframes animacao{
+        0%{margin-left: 0%;}
+        20%{margin-left: 0%;}
+        25%{margin-left:-70%}
+        45%{margin-left:-70%}
+        50%{margin-left:-155%}
+        70%{margin-left: -155%;}
+        75%{margin-left: -240%;}
+        95%{margin-left: -240%;}
+        100%{margin-left: -325%}
+    }
+
+/*formulário de contato*/
+#contato{
+    width:100vw;
+    margin:auto;
+    padding-top: 4em;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+}
+#contato h1{
+    padding-left: 0em;
+    font-size: 2.3em;
+    width:100vw;
+    text-align: center;
+}
+#contato p{
+    font-size: 1.2em;
+}
+label{
+    font-size:1.2em;
+}
+#name{
+    width:80vw;
+}
+input{
+    font-size: 1em;
+    height: 1.5rem;
+    width:32vw;
+
+}
+#estado{
+    margin: 0.5em;
+    height: 1.5em;
+    width:32vw;
+}
+
+#perguntacontato{
+    margin-left: 0em
+}
+.escolhacontato {
+    font-size: 1em;
+}
+input[type="submit"]{
+    width:40vw;
+    font-size: 1.5em;
+    height: fit-content;
+}
+#contato img{
+    position: relative;
+    right:30%;
+}
+}
+    
