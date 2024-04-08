@@ -92,7 +92,7 @@
     display: initial;
     font-size: 1em;
     color: rgb(35, 100, 42);
-    padding-left: 1em;
+    padding-left: 1.5em;
 }
 #nos article:hover h2{
     font-size: 1.5em;
